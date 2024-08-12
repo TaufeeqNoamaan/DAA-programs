@@ -17,7 +17,7 @@ public class QuickSort {
 
         int s = low;
         int e = hi;
-        int m = s + e / 2;
+        int m = (s + e) / 2;
         int pivot = nums[m];
 
         while (s <= e) {
